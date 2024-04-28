@@ -76,16 +76,22 @@ function displayData(data){
     let dele = document.createElement("button")
     dele.innerHTML = '<i class="fas fa-trash-alt"></i>'; // Font Awesome trash icon
     dele.addEventListener("click", () => deleteItem(index))
+    dele.classList.add("delete")
+
     
     // +5 bttn
     let plus5 = document.createElement("button")
     plus5.innerText=["+5"] 
     plus5.addEventListener("click", () => incrementScore(index))
+    plus5.classList.add("plus")
+
     
     // -5 bttn
     let minus5 = document.createElement("button")
     minus5.innerText=["-5"] 
     minus5.addEventListener("click", () => decrementScore(index))
+    minus5.classList.add("minus")
+
 
     box.append(name)
     box.append(country)
