@@ -38,11 +38,12 @@ input[type="submit"]:hover {
 
 .row {
   background-color: #ffffff; /* Set background color for each row */
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 
 .row p {
