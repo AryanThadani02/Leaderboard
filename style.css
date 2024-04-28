@@ -1,0 +1,81 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Set a background color for the body */
+}
+
+form {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#info {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+}
+
+.row {
+  background-color: #ffffff; /* Set background color for each row */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.row p {
+  margin: 5px 0;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+button.delete:hover {
+  background-color: #d32f2f;
+}
+
+button.plus,
+button.minus {
+  background-color: #2196f3;
+  color: white;
+}
+
+button.plus:hover,
+button.minus:hover {
+  background-color: #1976d2;
+}
